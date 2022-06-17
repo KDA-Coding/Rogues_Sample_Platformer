@@ -25,4 +25,14 @@ public class Missile_Mover : MonoBehaviour
         rb2d.velocity = transform.right * missileSpeed;
     }
 
+
+    /// <summary>
+    /// When missile collides into object, destroys the missile
+    /// </summary>
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject); 
+    }
+
+
 }

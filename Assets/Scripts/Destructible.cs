@@ -33,16 +33,16 @@ public class Destructible : MonoBehaviour
     }
 
     //This function adds or subtracts health
-    private void ModifyHitPoints( int modAmount )
+    private void ModifyHitPoints(int modAmount)
     {
         currentHitPoints += modAmount;
 
-        if( currentHitPoints > maximumHitPoints )
+        if (currentHitPoints > maximumHitPoints)
         {
             currentHitPoints = maximumHitPoints;
         }
 
-        if( currentHitPoints <= 0 )
+        if (currentHitPoints <= 0)
         {
             Die();
         }
@@ -54,4 +54,13 @@ public class Destructible : MonoBehaviour
         //Could add animation here!
         Destroy(gameObject);
     }
+
+    // Temporary Test Function for Destructible Objects
+    // Uncertain of how to destroy objects with life system
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject);
+    }
+
 }

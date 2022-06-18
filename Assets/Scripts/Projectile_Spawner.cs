@@ -5,17 +5,17 @@ using UnityEngine;
 public class Projectile_Spawner : MonoBehaviour
 {
 
-    [SerializeField] private Vector3 spawnPoint;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private GameObject spawnPoint;
+    [SerializeField] private GameObject projectileObject;
 
     // Update is called once per frame
     void Update()
     {
         
+        if(Input.GetKeyDown(KeyCode.E) )
+        {
+            Instantiate(projectileObject, spawnPoint.transform.position, spawnPoint.transform.rotation);
+        }
+
     }
 }

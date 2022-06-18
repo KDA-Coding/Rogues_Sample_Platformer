@@ -26,6 +26,8 @@ public class Life_System : MonoBehaviour
     /// <param name="collision"></param>
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.CompareTag("Ground")) { return; }
+
         healthPoints -= 100;
         if (healthPoints <= float.Epsilon) 
         {

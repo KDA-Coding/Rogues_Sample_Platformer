@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
         }
 
         //Listen for key presses and jump
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
         {
             jumper.Jump();
 

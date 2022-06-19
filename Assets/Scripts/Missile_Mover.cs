@@ -9,8 +9,14 @@ public class Missile_Mover : MonoBehaviour
     [SerializeField] float missileSpeed = 1f;
     Rigidbody2D rb2d;
 
+    //Animation for Missile Explosion
+    [SerializeField] private Animation anim;
+
     void Start()
     {
+
+        anim = gameObject.GetComponent<Animation>();
+
         MoveForward();
     }
 
@@ -29,8 +35,14 @@ public class Missile_Mover : MonoBehaviour
     /// <summary>
     /// When missile collides into object, destroys the missile
     /// </summary>
+
+    // Testing Missile Animation on Missile Destroyed
+
     void OnCollisionEnter2D(Collision2D collision)
     {
+
+        anim.Play("Explosion");
+
         Destroy(gameObject); 
     }
 

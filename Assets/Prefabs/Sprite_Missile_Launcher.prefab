@@ -26,12 +26,12 @@ Transform:
   m_GameObject: {fileID: 8909723300325880696}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -0.88, y: 3.41, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.79, y: 2.49, z: 2.2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8909723300705333786}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &8909723300325880697
 MonoBehaviour:

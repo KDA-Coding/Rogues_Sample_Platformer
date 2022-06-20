@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5465644016508195245}
   - component: {fileID: 5465644016508195246}
   - component: {fileID: 4807547776437342683}
+  - component: {fileID: 5682081612032085033}
   m_Layer: 0
   m_Name: Sprite_Static_Spiny
   m_TagString: Untagged
@@ -32,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5465644016508195245
 SpriteRenderer:
@@ -116,3 +117,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthPoints: 100
   explosion: {fileID: 1733593741511576205, guid: 7a479b1511bc8433883330af5d228059, type: 3}
+--- !u!114 &5682081612032085033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5465644016508195219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f76bd7d5bc28476b9bd81e7b8ae12cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

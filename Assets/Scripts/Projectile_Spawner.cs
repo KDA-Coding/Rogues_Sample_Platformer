@@ -12,9 +12,10 @@ public class Projectile_Spawner : MonoBehaviour
     void Update()
     {
         
-        if(Input.GetKeyDown(KeyCode.E) )
+        if(Input.GetKeyDown(KeyCode.Mouse0) )
         {
             Instantiate(projectileObject, spawnPoint.transform.position, spawnPoint.transform.rotation);
+            GetComponent<AudioSource>().Play();
         }
 
     }

@@ -16,6 +16,7 @@ public class Missile_Mover : MonoBehaviour
     {
 
         anim = gameObject.GetComponent<Animator>();
+        rb2d = GetComponent<Rigidbody2D>();
 
         MoveForward();
     }
@@ -27,7 +28,6 @@ public class Missile_Mover : MonoBehaviour
     /// </summary>
     void MoveForward()
     {
-        rb2d = GetComponent<Rigidbody2D>();
         rb2d.velocity = transform.right * missileSpeed;
     }
 
@@ -42,7 +42,8 @@ public class Missile_Mover : MonoBehaviour
     {
 
         anim.SetBool("isDestroyed", true);
-        //gameObject.SetActive(false);
+        rb2d.constraints = RigidbodyConstraints2D.FreezePosition;
+        GetComponent<AudioSource>().Play();
         Destroy(gameObject, anim.GetCurrentAnimatorStateInfo(0).length);
 
 

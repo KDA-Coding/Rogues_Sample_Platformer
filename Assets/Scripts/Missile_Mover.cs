@@ -43,7 +43,7 @@ public class Missile_Mover : MonoBehaviour
 
         anim.SetBool("isDestroyed", true);
         //gameObject.SetActive(false);
-        Destroy(gameObject, anim.GetCurrentAnimatorStateInfo(0).length/ 2);
+        Destroy(gameObject, anim.GetCurrentAnimatorStateInfo(0).length);
 
 
     }

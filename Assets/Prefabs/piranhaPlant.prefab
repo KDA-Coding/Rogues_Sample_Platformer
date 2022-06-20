@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7418746586800110053}
   - component: {fileID: 7418746586800110054}
   - component: {fileID: 7418746586800110055}
-  - component: {fileID: 7418746586800110048}
+  - component: {fileID: 224619149759930158}
   m_Layer: 0
   m_Name: piranhaPlant
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7418746586800110054
 SpriteRenderer:
@@ -102,7 +102,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 8.6, y: 9.6}
   m_Direction: 0
---- !u!114 &7418746586800110048
+--- !u!114 &224619149759930158
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +111,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7418746586800110049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 417f4c0ea3e9049d09144b66b1d39b75, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e1164de788744d5a9a82dfe3abe0ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  healthPoints: 100
+  explosion: {fileID: 1733593741511576205, guid: 7a479b1511bc8433883330af5d228059, type: 3}

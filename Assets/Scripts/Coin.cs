@@ -11,4 +11,7 @@ public class Coin : MonoBehaviour
         Debug.Log("Coin Collected!");
         Destroy(this.gameObject);
     }
+
 }
+
+

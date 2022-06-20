@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6109822657776327090}
   - component: {fileID: 6109822657776327088}
   - component: {fileID: 6109822657776327091}
+  - component: {fileID: 2927920285959707056}
   m_Layer: 0
   m_Name: Sprite_Missile
   m_TagString: Untagged
@@ -138,6 +139,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   missileSpeed: 10
+--- !u!95 &2927920285959707056
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6109822657776327089}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3d82844b7c686b9468d4e96e7eedef2b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &5943107584944590254
 PrefabInstance:
   m_ObjectHideFlags: 0

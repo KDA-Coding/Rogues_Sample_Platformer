@@ -10,12 +10,12 @@ public class Missile_Mover : MonoBehaviour
     Rigidbody2D rb2d;
 
     //Animation for Missile Explosion
-    [SerializeField] private Animation anim;
+    Animator anim;
 
     void Start()
     {
 
-        anim = gameObject.GetComponent<Animation>();
+        anim = gameObject.GetComponent<Animator>();
 
         MoveForward();
     }
@@ -41,10 +41,11 @@ public class Missile_Mover : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
 
-        anim.Play("Explosion");
+        anim.SetBool("isDestroyed", true);
+        //gameObject.SetActive(false);
+        Destroy(gameObject, anim.GetCurrentAnimatorStateInfo(0).length/ 2);
 
-        Destroy(gameObject); 
+
     }
-
 
 }

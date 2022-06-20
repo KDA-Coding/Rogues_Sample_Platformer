@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -130,7 +130,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: metal_blocks-export_0
+      name: metal_blocks_ground
       rect:
         serializedVersion: 2
         x: 2
@@ -151,7 +151,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_1
+      name: metal_blocks_waffle
       rect:
         serializedVersion: 2
         x: 36
@@ -172,13 +172,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_2
+      name: metal_blocks_platform
       rect:
         serializedVersion: 2
         x: 70
-        y: 172
-        width: 32
-        height: 32
+        y: 113
+        width: 20
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,7 +193,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_3
+      name: metal_blocks_vent
       rect:
         serializedVersion: 2
         x: 2
@@ -214,7 +214,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_4
+      name: metal_blocks_gold
       rect:
         serializedVersion: 2
         x: 36
@@ -235,15 +235,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_5
+      name: metal_blocks_platform_dmg
       rect:
         serializedVersion: 2
-        x: 70
-        y: 138
-        width: 32
-        height: 32
+        x: 94
+        y: 112
+        width: 20
+        height: 92
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,7 +256,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_6
+      name: metal_blocks_led
       rect:
         serializedVersion: 2
         x: 2
@@ -277,7 +277,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_7
+      name: metal_blocks_gem_red
       rect:
         serializedVersion: 2
         x: 36
@@ -298,28 +298,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_8
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 104
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99d3a10e3c5c2144e8056bbb93450ccc
-      internalID: -1536539271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: metal_blocks-export_9
+      name: metal_blocks_fanbox
       rect:
         serializedVersion: 2
         x: 2
@@ -340,7 +319,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_10
+      name: metal_blocks_fanbox_hole
       rect:
         serializedVersion: 2
         x: 36
@@ -361,13 +340,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_11
+      name: metal_blocks_big block led
       rect:
         serializedVersion: 2
         x: 70
-        y: 70
-        width: 32
-        height: 32
+        y: 54
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,7 +361,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_12
+      name: metal_blocks_itempickup
       rect:
         serializedVersion: 2
         x: 2
@@ -403,7 +382,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_13
+      name: metal_blocks_fan
       rect:
         serializedVersion: 2
         x: 36
@@ -424,28 +403,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_14
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 36
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 856fbe1588feb3f4786f4623ddab106f
-      internalID: 1721725974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: metal_blocks-export_15
+      name: metal_blocks_ground_dmg
       rect:
         serializedVersion: 2
         x: 2
@@ -466,7 +424,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_16
+      name: metal_blocks_fanbox_dmg
       rect:
         serializedVersion: 2
         x: 36
@@ -487,13 +445,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: metal_blocks-export_17
+      name: metal_blocks_big block led_dmg
       rect:
         serializedVersion: 2
         x: 70
-        y: 2
-        width: 32
-        height: 32
+        y: 4
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,22 +476,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      metal_blocks-export_0: 1176103638
-      metal_blocks-export_3: -417934235
-      metal_blocks-export_17: -2124191087
-      metal_blocks-export_7: 783185544
-      metal_blocks-export_1: -50397486
-      metal_blocks-export_2: 118222579
-      metal_blocks-export_11: -1624785897
-      metal_blocks-export_9: -51073890
-      metal_blocks-export_12: -1486938331
-      metal_blocks-export_16: -1195850045
-      metal_blocks-export_13: -1539673385
-      metal_blocks-export_6: -474949061
-      metal_blocks-export_4: 617091124
-      metal_blocks-export_5: 1121899984
-      metal_blocks-export_10: 1318413172
-      metal_blocks-export_15: 759650480
+      metal_blocks_fanbox: -51073890
+      metal_blocks_waffle: -50397486
+      metal_blocks_big block led: -1624785897
+      metal_blocks_gem_red: 783185544
+      metal_blocks_big block led_dmg: -2124191087
+      metal_blocks_ground_dmg: 759650480
+      metal_blocks_fan: -1539673385
+      metal_blocks_fanbox_dmg: -1195850045
+      metal_blocks_led: -474949061
+      metal_blocks_itempickup: -1486938331
+      metal_blocks_gold: 617091124
+      metal_blocks_platform_dmg: 1121899984
+      metal_blocks_fanbox_hole: 1318413172
+      metal_blocks_platform: 118222579
+      metal_blocks_ground: 1176103638
+      metal_blocks_vent: -417934235
       metal_blocks-export_14: 1721725974
       metal_blocks-export_8: -1536539271
   spritePackingTag: 

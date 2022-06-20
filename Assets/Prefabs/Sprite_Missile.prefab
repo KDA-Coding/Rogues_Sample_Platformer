@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 6109822657776327088}
   - component: {fileID: 6109822657776327091}
   - component: {fileID: 2927920285959707056}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite_Missile
-  m_TagString: Untagged
+  m_TagString: Missile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170,6 +170,10 @@ PrefabInstance:
     - target: {fileID: 8853872136137442743, guid: 35ab60268eca25e47a1fa7d171b595d9, type: 3}
       propertyPath: m_Name
       value: Particle_Missile_Smoke
+      objectReference: {fileID: 0}
+    - target: {fileID: 8853872136137442743, guid: 35ab60268eca25e47a1fa7d171b595d9, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8853872136137442744, guid: 35ab60268eca25e47a1fa7d171b595d9, type: 3}
       propertyPath: m_RootOrder

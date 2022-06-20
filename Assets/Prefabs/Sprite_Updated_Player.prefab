@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 8910681522073262114}
   - component: {fileID: 8910681522073262136}
   m_Layer: 0
-  m_Name: Sprite_Updated_Player_Test
+  m_Name: Sprite_Updated_Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

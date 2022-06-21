@@ -44,6 +44,8 @@ public class Missile_Mover : MonoBehaviour
         anim.SetBool("isDestroyed", true);
         rb2d.constraints = RigidbodyConstraints2D.FreezePosition;
         GetComponent<AudioSource>().Play();
+        GetComponent<Renderer>().enabled = false;
+        GetComponent<BoxCollider2D>().enabled = false;
         Destroy(gameObject, anim.GetCurrentAnimatorStateInfo(0).length);
 
 

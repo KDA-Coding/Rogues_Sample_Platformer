@@ -2,16 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coin : MonoBehaviour
 
+public class Coin : MonoBehaviour
 {
 
     [SerializeField] float delayTime = 1f;
     AudioSource audioSource;
+    UIController uiController;
 
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
+        uiController = FindObjectOfType<UIController>();
     }
 
     //Very simple script just listens to see if something touches it
@@ -24,6 +26,7 @@ public class Coin : MonoBehaviour
 
     IEnumerator PickupCoin()
     {
+        uiController.AddScore();
         gameObject.GetComponent<Renderer>().enabled = false;
         yield return new WaitForSecondsRealtime(delayTime);
         Destroy(this.gameObject);

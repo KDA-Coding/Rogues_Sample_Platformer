@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Steve_Level.unity
     guid: 4d47b764e696047d6b289460b92ac58e
   - enabled: 1
-    path: Assets/Scenes/Maggie's Sandbox Scene.unity
+    path: Assets/Scenes/Maggie_level.unity
     guid: eaaec5318b80506429ff7e90ba8c400a
   - enabled: 1
-    path: Assets/Scenes/Tyler Sandbox.unity
+    path: Assets/Scenes/Tyler_Level.unity
     guid: bdd07dc8f326c4304817c4cad2312a6c
   m_configObjects: {}

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1733593741511576201}
   - component: {fileID: 1733593741511576200}
   - component: {fileID: 1733593741511576207}
-  - component: {fileID: 1733593741511576206}
   - component: {fileID: -3318602135930202285}
-  m_Layer: 0
+  - component: {fileID: 1733593741511576206}
+  m_Layer: 8
   m_Name: coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,19 +103,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 5
---- !u!114 &1733593741511576206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733593741511576205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4190b4e69c6884fe7a24801bfccbf983, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delayTime: 1
 --- !u!82 &-3318602135930202285
 AudioSource:
   m_ObjectHideFlags: 0
@@ -212,3 +199,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1733593741511576206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733593741511576205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4190b4e69c6884fe7a24801bfccbf983, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayTime: 1
